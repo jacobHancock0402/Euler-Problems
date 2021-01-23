@@ -17,7 +17,7 @@ int numDivisors(long long int number)
         }
         if((number % i) == 0)
         {
-            divisorCount++;
+            divisorCount += 1;
         }
         i++;
     }
@@ -30,6 +30,7 @@ int main() {
     int natNum = 0;
     int natNumCount = 0;
     int number = 0;
+    //cout << numDivisors(2016);
     for(long long int i=1;i<10000000000000;i++)
     {
         // calculating the sum of natural numbers by adding i to the previous triangle number
@@ -39,6 +40,9 @@ int main() {
         if(sum > 500)
         {
             number = natNum;
+            //cout << "die";
+            //cout << sum;
+            //cout << i;
             break;
         }
     }

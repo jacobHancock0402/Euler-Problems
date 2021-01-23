@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "BigIntegerLibrary.hh": "cpp",
+        "string_view": "cpp",
+        "optional": "cpp",
+        "istream": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "sstream": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp"
+    }
+}
