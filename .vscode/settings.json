@@ -16,6 +16,7 @@
         "utility": "cpp",
         "sstream": "cpp",
         "*.tcc": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "iomanip": "cpp"
     }
 }

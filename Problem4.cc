@@ -1,10 +1,14 @@
 #include <iostream>
 #include <string>
+#include "Functions.h"
 
 using namespace std;
-bool isPalindromic(int number)
+bool isPalindromic(int number, string str = NULL)
 {
-    string str = to_string(number);
+    if(str == NULL)
+    {
+        string str = to_string(number);
+    }
     int length = str.length();
     char st[length];
     sprintf(st, "%d", number);
